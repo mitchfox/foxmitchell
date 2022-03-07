@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/foxmitchell/static/css/main.073c9b0a.css",
+    "main.js": "/foxmitchell/static/js/main.eb908c80.js",
+    "static/js/787.2d9349d3.chunk.js": "/foxmitchell/static/js/787.2d9349d3.chunk.js",
+    "static/media/logo.svg": "/foxmitchell/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/foxmitchell/index.html",
+    "main.073c9b0a.css.map": "/foxmitchell/static/css/main.073c9b0a.css.map",
+    "main.eb908c80.js.map": "/foxmitchell/static/js/main.eb908c80.js.map",
+    "787.2d9349d3.chunk.js.map": "/foxmitchell/static/js/787.2d9349d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.eb908c80.js"
+  ]
+}
