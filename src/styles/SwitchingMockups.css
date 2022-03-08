@@ -1,0 +1,324 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rowContainer {
+    /* margin-left: calc(-10px + 7vw); */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+}
+
+/* Mockup Columns */
+.mockupColumn1 {
+    z-index: 4;
+}
+
+.mockupColumn2 {
+    margin-left: calc(-1.5vw);    
+    z-index: 3;
+    margin-top: 40px;
+}
+
+.mockupColumn3 {
+    margin-left: calc(-1.5vw);
+    z-index: 2;
+    margin-top: 80px;
+}
+
+
+.appImage1 {
+    background-color: rgb(89, 101, 116);
+    aspect-ratio: 390 / 844;
+    height: auto;
+    max-width: 320px;
+
+    width: 30vw;
+    border-radius: 25px;
+    animation:  mockupSwipeUpOne 8s 2s both ease; 
+    animation-iteration-count: infinite; 
+}
+
+.appImage2 {
+    background-color: rgb(71, 83, 99);
+    aspect-ratio: 390 / 844;
+    height: auto;
+    max-width: 320px;
+    width: 30vw;
+    border-radius: 25px;
+    animation:  mockupSwipeUpTwo 8s 2s ease;   
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.appImage3 {
+    background-color: rgb(55, 63, 73);
+    aspect-ratio: 390 / 844;
+    height: auto;
+    max-width: 320px;
+    width: 30vw;
+    border-radius: 25px;
+    animation:  mockupSwipeUpThree 8s 6s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-delay: 6;
+}
+
+
+/* Mockup Animations 
+3 Images on mockup, intercahanging */
+
+@keyframes mockupSwipeUpOne {
+    0% {
+        transform: translateY(0vh);
+    }
+    2% {
+        transform: translateY(0vh);
+    }
+    3% {
+        transform: perspective(1500px) rotateY(12deg);
+    }
+    4% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    5% {
+        transform: perspective(1500px) rotateY(-12deg);
+    }
+    6% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    7% {
+        transform: perspective(1500px) rotateY(5deg);
+    }
+    8% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    9% {
+        transform: perspective(1500px) rotateY(-5deg);
+    }
+    10% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    11% {
+        transform: perspective(1500px) rotateY(2deg);
+    }
+    12% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    13% {
+        transform: perspective(1500px) rotateY(-3deg);
+    }
+    14% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+
+    16.6% {
+        transform: translateY(0vh);
+    }
+    33.2% {
+        transform: translateY(0vh);
+    }
+    50% {
+        transform: translateY(0vh);
+    }
+    52% {
+        transform: translateY(0vh);
+    }
+    54% {
+        transform: perspective(1500px) rotateY(12deg);
+    }
+    55% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    56% {
+        transform: perspective(1500px) rotateY(-12deg);
+    }
+    57% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    58% {
+        transform: perspective(1500px) rotateY(5deg);
+    }
+    59% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    60% {
+        transform: perspective(1500px) rotateY(-5deg);
+    }
+    61% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    62% {
+        transform: perspective(1500px) rotateY(2deg);
+    }
+    63% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    64% {
+        transform: perspective(1500px) rotateY(-2deg);
+    }
+    65% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    /* 56% {
+        transform: perspective(1500px) rotateY(0deg);
+    } */
+    /* 16.6% {
+        transform: translateY(0vh);
+    } */
+    66.4% {
+        transform: translateY(0vh);
+    }
+    83.5% {
+        transform: translateY(0vh);
+    }
+    98% {
+        transform: translateY(0vh);
+    }
+
+    100% {
+        transform: translateY(0vh);
+    }
+}
+
+@keyframes mockupSwipeUpTwo {
+    0% {
+        transform: translateY(150vh);
+    }
+    3% {
+        transform: translateY(0vh);
+    }
+    16.6% {
+        transform: translateY(0vh);
+    }
+    33.2% {
+        transform: translateY(0vh);
+    }
+    50% {
+        transform: translateY(0vh);
+    }
+    52% {
+        transform: translateY(0vh);
+    }
+    53% {
+        transform: perspective(1500px) rotateY(12deg);
+    }
+    54% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    55% {
+        transform: perspective(1500px) rotateY(-12deg);
+    }
+    56% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    57% {
+        transform: perspective(1500px) rotateY(5deg);
+    }
+    58% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    59% {
+        transform: perspective(1500px) rotateY(-5deg);
+    }
+    60% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    61% {
+        transform: perspective(1500px) rotateY(2deg);
+    }
+    62% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    63% {
+        transform: perspective(1500px) rotateY(-2deg);
+    }
+    64% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    83.5% {
+        transform: translateY(0vh);
+    }
+    95% {
+        transform: translateY(0vh);
+    }
+
+    100% {
+        transform: translateY(-150vh);
+    }
+}
+
+@keyframes mockupSwipeUpThree {
+    0% {
+        transform: translateY(150vh);
+    }
+    3% {
+        transform: translateY(0vh);
+    }
+    16.6% {
+        transform: translateY(0vh);
+    }
+    33.2% {
+        transform: translateY(0vh);
+    }
+    50% {
+        transform: translateY(0vh);
+    }
+    52% {
+        transform: translateY(0vh);
+    }
+    53.5% {
+        transform: perspective(1500px) rotateY(-12deg);
+    }
+    54.5% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    55.5% {
+        transform: perspective(1500px) rotateY(12deg);
+    }
+    56.5% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    57.5% {
+        transform: perspective(1500px) rotateY(-3deg);
+    }
+    58.5% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    59.5% {
+        transform: perspective(1500px) rotateY(3deg);
+    }
+    60.5% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    61.5% {
+        transform: perspective(1500px) rotateY(-1deg);
+    }
+    62.5% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    63.5% {
+        transform: perspective(1500px) rotateY(1deg);
+    }
+    64.5% {
+        transform: perspective(1500px) rotateY(0deg);
+    }
+    83.5% {
+        transform: translateY(0vh);
+    }
+    95% {
+        transform: translateY(0vh);
+    }
+    100% {
+        transform: translateY(-150vh);
+    }
+}
+
+
+
+
+
+
+
+
