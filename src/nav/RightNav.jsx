@@ -46,14 +46,14 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <div className='container'>
-        <Row align="midde" justify="center">
+        <Row align="middle" justify="center">
           <Col>   <div className='menuItem'>
-          <Link to="foxmitchell/home">Home</Link>
+          <Link to="/home">Home</Link>
           </div></Col>
         </Row>
-        <Row align="midde" justify="center">
+        <Row align="middle" justify="center">
           <Col>   <div className='menuItem'>
-          <Link to="foxmitchell/projects">Projects</Link>
+          <Link to="/projects">Projects</Link>
           </div></Col>
         </Row>
       </div>
