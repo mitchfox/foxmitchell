@@ -48,7 +48,7 @@ const RightNav = ({ open }) => {
       <div className='container'>
         <Row align="middle" justify="center">
           <Col>   <div className='menuItem'>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
           </div></Col>
         </Row>
         <Row align="middle" justify="center">

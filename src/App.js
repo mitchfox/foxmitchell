@@ -35,7 +35,7 @@ function App() {
             renders the first one that matches the current URL. */}
     </div>
       <Routes>
-        <Route path="/foxmitchell/home" element={<Home />} />
+        <Route path="/foxmitchell/" element={<Home />} />
         <Route path="/foxmitchell/projects" element={<Projects />} />
       </Routes>
     </BrowserRouter>
