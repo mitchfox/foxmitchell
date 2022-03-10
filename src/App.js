@@ -1,5 +1,10 @@
 import React, { useState, useEffect, Component, useRef, useContext, input } from 'react';
-import SwitchingMockups from './components/SwitchingMockups';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link,
+} from "react-router-dom";
 
 import './App.css';
 import { Row, Col } from 'react-simple-flex-grid';
@@ -8,35 +13,33 @@ import { bounce, bounceInDown, bounceOutUp, headShake, jello } from 'react-anima
 import 'animate.css';
 import Radium, { StyleRoot } from 'radium';
 
+// Pages 
+import Navbar from './nav/Navbar';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+
+// Images
 import Test1 from './assets/mockupImages/test1.svg';
+import Argonaut from './assets/mockupImages/argonaut.svg';
+import CryptoProphets from './assets/mockupImages/cryptoprophets.svg';
 
 function App() {
   return (
-    <div className='app'>
-      <div className='content'>
-        <div className='container'>
-          <p>hi</p>
-            <Row className='rowContainer' justify="center" align="middle">
-                <Col span={4} className={'mockupColumn1'}>
-                    {/* <div style={styles.firstAppMockup} className='appImage1'></div> */}
-                    <div className='appImage1'>
-                        <img src={Test1} className='mockupImages'></img>
-                    </div>
-                </Col>
-                <Col span={4} className={'mockupColumn2'}>
-                    <div className='appImage2'>
-                        <img src={Test1} className='mockupImages'></img>
-                    </div>
-                </Col >
-                <Col span={4} className={'mockupColumn3'}>
-                    <div className='appImage3'>
-                        <img src={Test1} className='mockupImages'></img>
-                    </div>
-                </Col>
-            </Row>
-        </div>
-      </div>
+    <BrowserRouter>
+      <div>
+        {/* Navigation */}
+       <div className='appStyleBar'></div>
+        <Navbar />
+
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
     </div>
+      <Routes>
+        <Route path="foxmitchell/home" element={<Home />} />
+        <Route path="foxmitchell/projects/*" element={<Projects />} />
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 

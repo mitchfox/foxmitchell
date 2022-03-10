@@ -1,0 +1,356 @@
+.home {
+    background-color: #080808;
+    justify-content: center;
+    z-index: 1;
+    height: calc(100vh - 5px);
+    width: 100vw;
+    /* overflow: hidden; */
+}
+.container {
+    width: 100vw;
+    height: 50vh;
+}
+
+.homeText {
+
+
+}
+
+.title {
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: calc(20px + 3vw);  
+}
+
+
+.rowContainer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Mockup Columns */
+  .mockupColumn1 {
+    margin-right: calc(-1.5vw);    
+    z-index: 4;
+  }
+  
+  .mockupColumn2 {
+    z-index: 3;
+    margin-top: 25px;
+  }
+  
+  .mockupColumn3 {
+    margin-left: calc(-1.5vw);
+    z-index: 2;
+    margin-top: 50px;
+  }
+  
+  .appImage1 {
+    /* background-color: rgb(89, 101, 116); */
+    aspect-ratio: 390 / 844;
+    height: auto;
+    max-width: 200px;
+    width: 31vw;
+    border-radius: 25px;
+    animation:  mockupSwipeUpOne 10s both ease; 
+    animation-iteration-count: infinite; 
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.3);
+  }
+  
+  .appImage2 {
+    /* background-color: rgb(71, 83, 99); */
+    aspect-ratio: 390 / 844;
+    height: auto;
+    max-width: 200px;
+    width: 31vw;
+    border-radius: 25px;
+    animation:  mockupSwipeUpTwo 10s ease;   
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.30);
+  }
+  
+  .appImage3 {
+    /* background-color: rgb(55, 63, 73); */
+    aspect-ratio: 390 / 844;
+    height: auto;
+    max-width: 200px;
+    width: 31vw;
+    border-radius: 25px;
+    animation:  mockupSwipeUpThree 10s 5s ease;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.30);
+  }
+  
+  .mockupImages {
+    border-radius: 35px;
+  }
+  
+  
+  
+  
+  
+  /* Mockup Animations 
+  3 Images on mockup, intercahanging */
+  
+  @keyframes mockupSwipeUpOne {
+    0% {
+        transform: translateY(0vh);
+    }
+    3% {
+        transform: translateY(0vh);
+    }
+    4.5% {
+        transform: perspective(1200px) rotateY(25deg);
+    }
+    5.5% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    7% {
+        transform: perspective(1200px) rotateY(-17deg);
+    }
+    9% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    10.5% {
+        transform: perspective(1200px) rotateY(5deg);
+    }
+    11.5% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    13% {
+        transform: perspective(1200px) rotateY(-5deg);
+    }
+    14% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+  
+    33.2% {
+        transform: translateY(0vh);
+    }
+    50% {
+        transform: translateY(0vh);
+    }
+    54% {
+        transform: translateY(0vh);
+    }
+    56.5% {
+        transform: perspective(1200px) rotateY(25deg);
+    }
+    57.5% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    59% {
+        transform: perspective(1200px) rotateY(-17deg);
+    }
+    61% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    62.5% {
+        transform: perspective(1200px) rotateY(5deg);
+    }
+    63.5% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    65% {
+        transform: perspective(1200px) rotateY(-5deg);
+    }
+    66% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    68% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    /* 56% {
+        transform: perspective(1200px) rotateY(0deg);
+    } */
+    /* 16.6% {
+        transform: translateY(0vh);
+    } */
+    66.4% {
+        transform: translateY(0vh);
+    }
+    83.5% {
+        transform: translateY(0vh);
+    }
+    98% {
+        transform: translateY(0vh);
+    }
+  
+    100% {
+        transform: translateY(0vh);
+    }
+  }
+  
+  @keyframes mockupSwipeUpTwo {
+    0% {
+        transform: translateX(150vh);
+    }
+    6% {
+        transform: translateX(0vh);
+    }
+    16.6% {
+        transform: translateX(0vh);
+    }
+    33.2% {
+        transform: translateX(0vh);
+    }
+    50% {
+        transform: translateX(0vh);
+    }
+    52% {
+        transform: translateX(0vh);
+    }
+    54.5% {
+        transform: perspective(1200px) rotateY(25deg);
+    }
+    55.5% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    57% {
+        transform: perspective(1200px) rotateY(-17deg);
+    }
+    59% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    60.5% {
+        transform: perspective(1200px) rotateY(5deg);
+    }
+    61.5% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    63% {
+        transform: perspective(1200px) rotateY(-5deg);
+    }
+    64% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    83.5% {
+        transform: translateX(0vh);
+    }
+    93% {
+        transform: translateX(0vh);
+    }
+  
+    100% {
+        transform: translateX(-150vh);
+    }
+  }
+  
+  @keyframes mockupSwipeUpThree {
+    0% {
+        transform: translateX(150vh);
+    }
+    6% {
+        transform: translateX(0vh);
+    }
+    16.6% {
+        transform: translateX(0vh);
+    }
+    33.2% {
+        transform: translateX(0vh);
+    }
+    50% {
+        transform: translateX(0vh);
+    }
+    54% {
+        transform: translateX(0vh);
+    }
+    56.5% {
+        transform: perspective(1200px) rotateY(25deg);
+    }
+    57.5% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    59% {
+        transform: perspective(1200px) rotateY(-17deg);
+    }
+    61% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    62.5% {
+        transform: perspective(1200px) rotateY(5deg);
+    }
+    63.5% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    65% {
+        transform: perspective(1200px) rotateY(-5deg);
+    }
+    66% {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    83.5% {
+        transform: translateX(0vh);
+    }
+    93% {
+        transform: translateX(0vh);
+    }
+  
+    100% {
+        transform: translateX(-150vh);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  /* MOBILE RESPONSIVENESS */
+@media only screen and (max-width: 600px) {
+    .mockupImages {
+        border-radius: 15px;
+    }
+  
+  }
+  
+  /* @media only screen and (max-width: 1000px) {
+  
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .rowContainer {
+        margin-left: -2vw;
+        height: auto;
+        width: 80%;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        }
+  
+
+    .mockupColumn1 {
+        z-index: 4;
+    }
+  
+    .mockupColumn2 {
+        z-index: 3;
+        margin-top: 25px;
+    }
+  
+    .mockupColumn3 {
+        z-index: 2;
+        margin-top: 50px;
+    }
+  
+  
+  } */
+  
+  
+  /* 770 for text go above */
+  
+  
+  
+  
+  
+  
+  
