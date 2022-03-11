@@ -10,23 +10,39 @@ import CryptoProphets from '../assets/projectImages/cryptoprophetpreviewsmall';
 function Projects() {
   return (
     <div className='projects'>
-
-      <Row className='rows'>
+      <Row className='rows' >
         <Col span={4} className='projectDiv'>
-          <img src={CryptoProphets} className='projectImageStyles'/>
-          </Col>
-        <Col span={4} className='projectDiv'>2</Col>
-        <Col span={4} className='projectDiv'>3</Col>
+          <p className='projectTitles'>Crypto Prophets | React Web App</p>
+          <p className='projectBios'>Cryptocurrency Analytics Calculator using Coingeckos API's Data Feeds</p>
+          <img src={CryptoProphets} className='projectImageStyles' />
+        </Col>
+        <Col span={4} className='projectDiv'>
+          <p className='projectTitles'>Argonaut | React Native App</p>
+          <p className='projectBios'>Travel Journal that Incoporates Writing and Geolocation Mapping the Users Compositions</p>
+          <img src={CryptoProphets} className='projectImageStyles' />
+        </Col>
+        <Col span={4} className='projectDiv'>
+          <p className='projectTitles'>Crypto Prophets | React Web App</p>
+          <p className='projectBios'>Cryptocurrency Analytics Calculator using Coingeckos API's Data Feeds</p>
+          <img src={CryptoProphets} className='projectImageStyles' />
+        </Col>
       </Row>
-      <Row>
-        <Col></Col>
-        <Col></Col>
-        <Col></Col>
-      </Row>
-      <Row>
-        <Col></Col>
-        <Col></Col>
-        <Col></Col>
+      <Row className='rows' >
+        <Col span={4} className='projectDiv'>
+          <p className='projectTitles'>Crypto Prophets | React Web App</p>
+          <p className='projectBios'>Cryptocurrency Analytics Calculator using Coingeckos API's Data Feeds</p>
+          <img src={CryptoProphets} className='projectImageStyles' />
+        </Col>
+        <Col span={4} className='projectDiv'>
+          <p className='projectTitles'>Crypto Prophets | React Web App</p>
+          <p className='projectBios'>Cryptocurrency Analytics Calculator using Coingeckos API's Data Feeds</p>
+          <img src={CryptoProphets} className='projectImageStyles' />
+        </Col>
+        <Col span={4} className='projectDiv'>
+          <p className='projectTitles'>Crypto Prophets | React Web App</p>
+          <p className='projectBios'>Cryptocurrency Analytics Calculator using Coingeckos API's Data Feeds</p>
+          <img src={CryptoProphets} className='projectImageStyles' />
+        </Col>
       </Row>
 
 

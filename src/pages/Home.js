@@ -21,6 +21,7 @@ function Home() {
                 <Col span={4} className={'mockupColumn1'}>
                     {/* <div style={styles.firstAppMockup} className='appImage1'></div> */}
                     <div className='appImage1'>
+                        
                         <img src={Test1} className='mockupImages'></img>
                     </div>
                 </Col>
@@ -37,12 +38,12 @@ function Home() {
             </Row>
         </div>
         <div className='textContainer'>
-            <h1 id='reactNinja'>React<br/>Ninja</h1>
-            <p id='bio'>Hi I'm Mitch Fox, an Aussie frontend developer  based in the UK who specialises in React, 
-                JavaScript & starting side projects before finishing old ones.
+            <h1 id='reactNinja'>Hi! 👋 <br/>I'm Mitch</h1>
+            <p id='bio'>I'm an Australian developer based in the UK who specialises in React, 
+                JavaScript and starting side projects before finishing old ones.
                 <br/><br/> 
-                As this is essentially my resume, I could go on to write something pretentious highlighting 
-                my various areas of expertise and amazing skills... but I won't...
+                As this is essentially my resume, I could go on to write something extremely pretentious highlighting 
+                how badass my coding and design skills are... but I won't...
                 <br/><br/>
                 Instead I'll just let my projects do the talking for me!</p>
         </div>
