@@ -3,6 +3,7 @@
   background-color: #080808;
   justify-content: center;
   overflow: hidden;
+
 }
 
 .container {
@@ -16,4 +17,5 @@
   height:5px;
   background: linear-gradient(45deg, #fa64ff, #7bf0ff);
   width: 100%;
+
 }

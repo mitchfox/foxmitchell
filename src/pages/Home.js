@@ -16,7 +16,6 @@ import CryptoProphets from '../assets/mockupImages/cryptoprophets.svg';
 function Home() {
   return (
     <div className='home'>
-
         <div className='container'>
             <Row className='rowContainer' justify="center" align="middle">
                 <Col span={4} className={'mockupColumn1'}>
@@ -36,6 +35,16 @@ function Home() {
                     </div>
                 </Col>
             </Row>
+        </div>
+        <div className='textContainer'>
+            <h1 id='reactNinja'>React<br/>Ninja</h1>
+            <p id='bio'>Hi I'm Mitch Fox, an Aussie frontend developer  based in the UK who specialises in React, 
+                JavaScript & starting side projects before finishing old ones.
+                <br/><br/> 
+                As this is essentially my resume, I could go on to write something pretentious highlighting 
+                my various areas of expertise and amazing skills... but I won't...
+                <br/><br/>
+                Instead I'll just let my projects do the talking for me!</p>
         </div>
       </div>
   );

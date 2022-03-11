@@ -25,20 +25,23 @@ import CryptoProphets from './assets/mockupImages/cryptoprophets.svg';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div>
-        {/* Navigation */}
+    <div>
        <div className='appStyleBar'></div>
-        <Navbar />
-
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
+      <Home />
+      <Projects />
     </div>
-      <Routes>
-        <Route path="/foxmitchell/" element={<Home />} />
-        <Route path="/foxmitchell/projects" element={<Projects />} />
-      </Routes>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <div>
+        
+    //    <div className='appStyleBar'></div>
+    //    {/* Navigation */}
+    //     <Navbar />
+    // </div>
+    //   <Routes>
+    //     <Route path="/foxmitchell/" element={<Home />} />
+    //     <Route path="/foxmitchell/projects" element={<Projects />} />
+    //   </Routes>
+    // </BrowserRouter>
 
   );
 }

@@ -8,7 +8,9 @@
 }
 .container {
     width: 100vw;
-    height: 50vh;
+    height: auto;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
 }
 
 .homeText {
@@ -24,36 +26,39 @@
 }
 
 
+/*  Change max width for larger devices for more spacing */
 .rowContainer {
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
+    max-width: 850px;
   }
   
   /* Mockup Columns */
   .mockupColumn1 {
     margin-right: calc(-1.5vw);    
     z-index: 4;
+    margin-top: 60px;
   }
   
   .mockupColumn2 {
     z-index: 3;
-    margin-top: 25px;
+    margin-top: 30px;
   }
   
   .mockupColumn3 {
     margin-left: calc(-1.5vw);
     z-index: 2;
-    margin-top: 50px;
   }
   
   .appImage1 {
     /* background-color: rgb(89, 101, 116); */
     aspect-ratio: 390 / 844;
     height: auto;
-    max-width: 200px;
-    width: 31vw;
+    max-width: 150px;
+    width: 100%;
     border-radius: 25px;
-    animation:  mockupSwipeUpOne 10s both ease; 
+    animation:  mockupSwipeUpOne 8s both ease; 
     animation-iteration-count: infinite; 
     box-shadow: 0 0 90px rgba(0, 0, 0, 0.3);
   }
@@ -62,10 +67,10 @@
     /* background-color: rgb(71, 83, 99); */
     aspect-ratio: 390 / 844;
     height: auto;
-    max-width: 200px;
-    width: 31vw;
+    max-width: 150px;
+    width: 100%;
     border-radius: 25px;
-    animation:  mockupSwipeUpTwo 10s ease;   
+    animation:  mockupSwipeUpTwo 8s ease;   
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     box-shadow: 0 0 90px rgba(0, 0, 0, 0.30);
@@ -75,17 +80,17 @@
     /* background-color: rgb(55, 63, 73); */
     aspect-ratio: 390 / 844;
     height: auto;
-    max-width: 200px;
-    width: 31vw;
+    max-width: 150px;
+    width: 100%;
     border-radius: 25px;
-    animation:  mockupSwipeUpThree 10s 5s ease;
+    animation:  mockupSwipeUpThree 8s 4s ease;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     box-shadow: 0 0 90px rgba(0, 0, 0, 0.30);
   }
   
   .mockupImages {
-    border-radius: 35px;
+    border-radius: 25px;
   }
   
   
@@ -133,34 +138,34 @@
     50% {
         transform: translateY(0vh);
     }
-    54% {
+    56% {
         transform: translateY(0vh);
     }
-    56.5% {
+    58.5% {
         transform: perspective(1200px) rotateY(25deg);
     }
-    57.5% {
+    59.5% {
         transform: perspective(1200px) rotateY(0deg);
-    }
-    59% {
-        transform: perspective(1200px) rotateY(-17deg);
     }
     61% {
+        transform: perspective(1200px) rotateY(-17deg);
+    }
+    63% {
         transform: perspective(1200px) rotateY(0deg);
     }
-    62.5% {
+    64.5% {
         transform: perspective(1200px) rotateY(5deg);
     }
-    63.5% {
+    65.5% {
         transform: perspective(1200px) rotateY(0deg);
     }
-    65% {
+    67% {
         transform: perspective(1200px) rotateY(-5deg);
     }
-    66% {
+    68% {
         transform: perspective(1200px) rotateY(0deg);
     }
-    68% {
+    70% {
         transform: perspective(1200px) rotateY(0deg);
     }
     /* 56% {
@@ -200,31 +205,31 @@
     50% {
         transform: translateX(0vh);
     }
-    52% {
+    54% {
         transform: translateX(0vh);
     }
-    54.5% {
+    56.5% {
         transform: perspective(1200px) rotateY(25deg);
     }
-    55.5% {
+    57.5% {
         transform: perspective(1200px) rotateY(0deg);
-    }
-    57% {
-        transform: perspective(1200px) rotateY(-17deg);
     }
     59% {
+        transform: perspective(1200px) rotateY(-17deg);
+    }
+    61% {
         transform: perspective(1200px) rotateY(0deg);
     }
-    60.5% {
+    62.5% {
         transform: perspective(1200px) rotateY(5deg);
     }
-    61.5% {
+    63.5% {
         transform: perspective(1200px) rotateY(0deg);
     }
-    63% {
+    65% {
         transform: perspective(1200px) rotateY(-5deg);
     }
-    64% {
+    66% {
         transform: perspective(1200px) rotateY(0deg);
     }
     83.5% {
@@ -297,12 +302,46 @@
   
   
   
+  .textContainer {
+      color: #ffffff;
+      width: 85%;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #reactNinja {
+      font-size: calc(56px + 2vw);
+      margin-top: 0px;
+      margin-bottom: 2vh;
+      line-height: 0.9em;
+      text-transform: uppercase;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+  }
+
+  #bio {
+    font-size: calc(16px);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+  }
   
+
+
+
+
+
+
+
+
+
+
+
   
   /* MOBILE RESPONSIVENESS */
 @media only screen and (max-width: 600px) {
     .mockupImages {
-        border-radius: 15px;
+        border-radius: 20px;
     }
   
   }

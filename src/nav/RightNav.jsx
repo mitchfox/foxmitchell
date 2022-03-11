@@ -31,9 +31,9 @@ const Ul = styled.ul`
     right: 0;
     height: 0px;
     height: 100%;
-    min-width: 300px;
+    // max-width: 500px;
     margin-top: 0px;
-    width: 100%;
+    width: 50%;
     transition: transform 0.3s ease-in-out;
     li {
       color: #fff;
@@ -48,12 +48,16 @@ const RightNav = ({ open }) => {
       <div className='container'>
         <Row align="middle" justify="center">
           <Col>   <div className='menuItem'>
-          <Link to="/">Home</Link>
+          <Link to="foxmitchell/">
+            <ul>
+            Home
+              </ul>
+              </Link>
           </div></Col>
         </Row>
         <Row align="middle" justify="center">
           <Col>   <div className='menuItem'>
-          <Link to="/projects">Projects</Link>
+          <Link to="foxmitchell/projects">Projects</Link>
           </div></Col>
         </Row>
       </div>
