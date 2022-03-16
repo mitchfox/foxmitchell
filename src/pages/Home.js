@@ -42,8 +42,8 @@ function Home() {
         </div>
         
         <div className='textContainer'>
-            <h1 id='reactNinja'>Hi! 👋  I'm Mitch</h1>
-            <p id='bio'>I'm an Australian developer based in the UK who specialises in React, 
+            <h1 id='reactNinja'>Need a React Ninja?</h1>
+            <p id='bio'>Hi 👋  I'm Mitch, an Australian developer based in the UK who specialises in React, 
                 JavaScript and starting side projects before finishing old ones.
                 <br/><br/> 
                 As this is essentially my resume, I could go on to write something extremely pretentious highlighting 

@@ -80,7 +80,39 @@
   .mockupImages {
     border-radius: 25px;
   }
+
+  @media screen and (max-width: 600px) {
+    .mockupImages {
+      border-radius: 12px;
+    }
+  }
   
+
+    
+.textContainer {
+    color: #ffffff;
+    width: 85%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reactNinja {
+    font-size: calc(30px + 2vw);
+    margin-top: 0px;
+    margin-bottom: 2vh;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+#bio {
+  font-size: calc(16px);
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
   
   
   
@@ -290,31 +322,6 @@
 
   
   
-  
-  
-  
-.textContainer {
-      color: #ffffff;
-      width: 85%;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-}
 
-#reactNinja {
-      font-size: calc(30px + 2vw);
-      margin-top: 0px;
-      margin-bottom: 2vh;
-      line-height: 1.1em;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-}
-
-#bio {
-    font-size: calc(16px);
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 500;
-    margin-bottom: 0px;
-}
   
 

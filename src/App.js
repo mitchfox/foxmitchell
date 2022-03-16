@@ -12,6 +12,10 @@ import Navbar from './nav/Navbar';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 
+// TODO
+// Add svg logo animation
+// Add fade in for each div
+
 
 function App() {
   return (
