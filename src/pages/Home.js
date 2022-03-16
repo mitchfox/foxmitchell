@@ -5,6 +5,7 @@ import { Row, Col } from 'react-simple-flex-grid';
 import "react-simple-flex-grid/lib/main.css";
 import { bounce, bounceInDown, bounceOutUp, headShake, jello } from 'react-animations';
 import 'animate.css';
+import Tilt from 'react-tilt'
 import Radium, { StyleRoot } from 'radium';
 
 
@@ -17,7 +18,9 @@ function Home() {
   return (
     <div className='home'>
         <div className='container'>
+            
             <Row className='rowContainer' justify="center" align="middle">
+                
                 <Col span={4} className={'mockupColumn1'}>
                     {/* <div style={styles.firstAppMockup} className='appImage1'></div> */}
                     <div className='appImage1'>
@@ -37,8 +40,9 @@ function Home() {
                 </Col>
             </Row>
         </div>
+        
         <div className='textContainer'>
-            <h1 id='reactNinja'>Hi! 👋 <br/>I'm Mitch</h1>
+            <h1 id='reactNinja'>Hi! 👋  I'm Mitch</h1>
             <p id='bio'>I'm an Australian developer based in the UK who specialises in React, 
                 JavaScript and starting side projects before finishing old ones.
                 <br/><br/> 

@@ -1,55 +1,73 @@
 .projects {
-    padding-top: 5vh;
+    padding-top: 3vh;
     margin-top: -1px;
     background-color: #1a1a1f;
     border: 0px;
     height: 100%;
+    width: 100%;
     font-family: 'Space Grotesk', sans-serif;
+
 }
 
-.rows {
+.projectRows {
     display: flex;
     flex-direction: column;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
-    border: 0px;
+    max-width: 600px;
 }
 
-/* @media (max-width: 800px) {
-    .ROW {
-      flex-direction: column;
-    }
-  } */
-
-
-.projectDiv {
-    /* background-color: #222222; */
+.boxContainer {
     height: auto;
     width: 100%;
-    margin-bottom: 40px;
-    /* border-radius: 10px; */
+    max-width: 600px;
+    margin-bottom: 5vh;
+    transition: all 0.3s ease;
+}
+
+.boxContainer:hover {
+    transform: scale(1.05);
+}
+
+
+.projectContainer {
+    background-color: #282830;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 20px;
 }
 
 .projectTitles {
     color: #ffffff;
     margin-top: 0px;
-    margin-bottom: 5px;
-    font-size: 18px;
+    margin-bottom: 0px;
+    font-size: calc(16px + 0.2vw);
     font-weight: 600;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
 
 .projectBios {
     color: #ffffff;
     margin-top: 0px;
-    font-size: 14px;
+    font-size: calc(14px + 0.1vw);
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .projectImageStyles {
     width: 100%;
     height: auto;
     object-fit: cover;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
