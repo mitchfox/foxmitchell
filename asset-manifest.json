@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/foxmitchell/static/css/main.3e5fa098.css",
-    "main.js": "/foxmitchell/static/js/main.3cbefb16.js",
+    "main.css": "/foxmitchell/static/css/main.88bbb5e3.css",
+    "main.js": "/foxmitchell/static/js/main.09f6c0f4.js",
     "static/js/787.2d9349d3.chunk.js": "/foxmitchell/static/js/787.2d9349d3.chunk.js",
     "static/media/cryptoprophetpreviewsmall": "/foxmitchell/static/media/cryptoprophetpreviewsmall.b2d70c0e9cf4d4d8d820",
     "static/media/argonaut.png": "/foxmitchell/static/media/argonaut.efbff3db8718eb009b31.png",
+    "static/media/argonaut3.svg": "/foxmitchell/static/media/argonaut3.799a19ecab1bd30749e55ff5f7e7d756.svg",
     "static/media/argonaut.svg": "/foxmitchell/static/media/argonaut.0d9b8ece9e931ce3708c7d09d5b61c22.svg",
     "static/media/cryptoprophets.svg": "/foxmitchell/static/media/cryptoprophets.13cdc5afa5544732a86949c29a9edbf4.svg",
     "static/media/test1.svg": "/foxmitchell/static/media/test1.44ceb592eb0c58a2f36710ae64a9f8e3.svg",
     "index.html": "/foxmitchell/index.html",
-    "main.3e5fa098.css.map": "/foxmitchell/static/css/main.3e5fa098.css.map",
-    "main.3cbefb16.js.map": "/foxmitchell/static/js/main.3cbefb16.js.map",
+    "main.88bbb5e3.css.map": "/foxmitchell/static/css/main.88bbb5e3.css.map",
+    "main.09f6c0f4.js.map": "/foxmitchell/static/js/main.09f6c0f4.js.map",
     "787.2d9349d3.chunk.js.map": "/foxmitchell/static/js/787.2d9349d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e5fa098.css",
-    "static/js/main.3cbefb16.js"
+    "static/css/main.88bbb5e3.css",
+    "static/js/main.09f6c0f4.js"
   ]
 }
