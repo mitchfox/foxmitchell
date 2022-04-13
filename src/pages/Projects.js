@@ -12,6 +12,7 @@ function Projects() {
   return (
     <div className='projects'>
       <Row className='projectRows'>
+        <a  target="_blank" href="https://cryptoprophets.io/">
         <Col span={9} justify="center" align="left" className="boxContainer">
           <div className='projectContainer'>
             <p className='projectTitles'>Crypto Prophets | React Web App</p>
@@ -22,13 +23,13 @@ function Projects() {
             <img src={CryptoProphets} className='projectImageStyles' />
           </div>
         </Col>
-
+        </a>
 
         <Col span={9} justify="center" align="left" className="boxContainer">
           <div className='projectContainer'>
             <p className='projectTitles'>Argonaut | React Native App</p>
             <p className='projectBios'>A Writers Travel Journal allowing Users to Create 
-            Minimalist Compositions that are subsequentially Mapped using user geometrics
+            Minimalist Compositions that are subsequentially Mapped using user geometrics. Currently in the graveyard :(
             </p>
           </div>
           <div style={{ marginTop: '0px' }}>

@@ -101,11 +101,19 @@
     font-size: calc(30px + 2vw);
     margin-top: 0px;
     margin-bottom: 2vh;
-    line-height: 1.1em;
+    line-height: 1em;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
+
+.reactImageLogo {
+    margin-right: 7px;
+    margin-bottom: -2px;
+    width: auto;
+    height: calc(35px + 1vw);
+}
+
 
 #bio {
   font-size: calc(16px);
